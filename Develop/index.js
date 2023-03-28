@@ -60,6 +60,22 @@ const questions = [
       return input !== '' || 'Please provide information on what kind of license your project has';
     },
   },
+    {
+      type: 'type',
+      name: 'github',
+      message: 'What is your github user name?',
+      validate: function (input) {
+        return input !== '' || 'Please provide information on what kind of license your project has';
+      },
+    },
+      {
+        type: 'type',
+        name: 'email',
+        message: 'What is your email address?',
+        validate: function (input) {
+          return input !== '' || 'Please provide information on what kind of license your project has';
+        }
+  },
 ]
 
 

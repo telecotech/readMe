@@ -45,6 +45,12 @@
 
 Please see our [testing guidelines](TESTING.md) for more information on how to write and run tests for this project.
 
+  ## Github Username
+  Telecotech
+
+  ## Email Address
+  chad.mullens210@gmail.com
+  
   ## License
   ![License](https://img.shields.io/badge/GPL-3.0-yellow.svg)
   [GPL-3.0](https://opensource.org/licenses/GPL-3.0)

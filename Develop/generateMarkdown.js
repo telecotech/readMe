@@ -47,6 +47,12 @@ function generateMarkdown(data) {
 
   ${data.tests}
 
+  ## Github Usernam
+  ${data.gethub}
+
+  ## Email Address
+  ${data.email}
+
   ## License
   ${renderLicenseBadge(data.license)}
   ${renderLicenseLink(data.license)}

@@ -60,26 +60,11 @@ const questions = [
       return input !== '' || 'Please provide information on what kind of license your project has';
     },
   },
-  {
-    type: 'input',
-    name: 'githubUsername',
-    message: 'What is your GitHub username?',
-    validate: function (input) {
-      return input !== '' || 'Please enter your GitHub username';
-    },
-  },
-  {
-    type: 'input',
-    name: 'email',
-    message: 'What is your email address?',
-    validate: function (input) {
-      return input !== '' || 'Please enter your email address';
-    },
-  },
-];
+]
 
 
-// function to write README file
+
+
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, err => {
     if (err) {
@@ -90,7 +75,7 @@ function writeToFile(fileName, data) {
   });
 }
 
-// function to initialize app
+
 function init() {
   inquirer.prompt(questions)
     .then(answers => {

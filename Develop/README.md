@@ -28,9 +28,10 @@
 
   asdf
 
-  
   ## License
- ![License](https://img.shields.io/badge/GPL-3.0-yellow.svg)
- (https://opensource.org/licenses/GPL-3.0)
+  ![License](https://img.shields.io/badge/GPL-3.0-yellow.svg)
+  [GPL-3.0](https://opensource.org/licenses/GPL-3.0)
+
+
  
   
